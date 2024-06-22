@@ -54,15 +54,24 @@ public class Patient {
 	
 	@Column(name = "paid_Amount")
 	private int paidAmount;
+	
+	@Column(name = "doctor_name")
+	private String doctorName;
 
-	public Patient(@NotEmpty String patientName, @NotEmpty String petientEmail, @NotEmpty String patientContact,
-			@NotEmpty Date patientDate, @NotEmpty String patientDOB, @NotEmpty String patientAddress) {
+	public Patient(String patientName, String petientEmail, String patientContact, Date patientDate, String patientDOB,
+			String descriptionDetails, String patientstatus, String patientAddress, int paidAmount, String doctorName) {
 		super();
 		this.patientName = patientName;
 		this.petientEmail = petientEmail;
 		this.patientContact = patientContact;
 		this.patientDate = patientDate;
 		this.patientDOB = patientDOB;
+		this.descriptionDetails = descriptionDetails;
+		this.patientstatus = patientstatus;
 		this.patientAddress = patientAddress;
+		this.paidAmount = paidAmount;
+		this.doctorName = doctorName;
 	}
+
+	
 }

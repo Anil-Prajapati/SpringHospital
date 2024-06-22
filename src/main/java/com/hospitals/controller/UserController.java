@@ -3,6 +3,7 @@ package com.hospitals.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -27,6 +28,12 @@ public class UserController {
 	@GetMapping(ApiComponent.GET_API)
 	public Iterable<User> getAll(){
 		return userService.getAll(); 
+	}
+	
+	@GetMapping("/names/{userName}")
+	@PreAuthorize("hasAnyRole('Admin','Doctor','User')")
+	public User getSingle(@PathVariable("userName") String userName) {
+		return userService.getSingleData(userName);
 	}
 	
 	@PostMapping(ApiComponent.CREATE_API)

@@ -29,6 +29,10 @@ public class UserService {
 		return userRepository.findAll();
 	}
 	
+	public User getSingleData(String userName) {
+		return userRepository.findByUserName(userName);
+	}
+	
 	public User create(User user) {
 	    // Encrypt the user's password
 	    String password = user.getPassword();
