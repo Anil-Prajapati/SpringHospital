@@ -57,7 +57,7 @@ public class SecurityConfig {
 	public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity) throws Exception {
 		httpSecurity.csrf(csrf -> csrf.disable())
 				.authorizeHttpRequests(
-						authorize -> authorize.requestMatchers("/authentication", "/api/create/tci/extio/create", "all").permitAll())
+						authorize -> authorize.requestMatchers("/authentication", "/api/create/tci/extio/create", "all","/api/testing").permitAll())
 				.authorizeHttpRequests(authorize -> authorize.anyRequest().authenticated())
 				.exceptionHandling(handling -> handling.authenticationEntryPoint(authenticationEntrypoint))
 				.sessionManagement(management -> management.sessionCreationPolicy(SessionCreationPolicy.STATELESS));

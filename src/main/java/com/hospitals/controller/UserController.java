@@ -60,5 +60,10 @@ public class UserController {
 	public String user() {
 		return "This Is The User Page...";
 	}
+	
+	@GetMapping("/testing")
+	public String NoramalTesting() {
+		return "This Api Without Any security Runing. when we are deploye the projects some where pls test this api first and after that we do the security content";
+	}
 
 }
