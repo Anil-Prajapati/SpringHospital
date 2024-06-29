@@ -4,6 +4,7 @@ import java.util.Set;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
@@ -17,6 +18,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 @Table(name="secure_role")
+@Schema(name="Role Model", description = "Role Model Here")
 @Entity
 @Setter
 @Getter

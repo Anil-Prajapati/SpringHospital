@@ -4,6 +4,9 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.Set;
 
+import io.swagger.v3.oas.annotations.enums.SecuritySchemeType;
+import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.security.SecurityScheme;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -23,6 +26,15 @@ import lombok.ToString;
 
 @Entity
 @Table(name = "secure_table")
+@Schema(name="User Model", description = "This Is The User Model")
+@SecurityScheme(
+		
+		name="Bearer Authentication",
+		type = SecuritySchemeType.HTTP,
+		bearerFormat = "JWT",
+		scheme = "bearer"
+		
+		)
 @Setter
 @Getter
 @ToString

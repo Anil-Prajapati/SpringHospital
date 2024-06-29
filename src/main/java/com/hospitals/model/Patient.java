@@ -2,6 +2,9 @@ package com.hospitals.model;
 
 import java.util.Date;
 
+import io.swagger.v3.oas.annotations.enums.SecuritySchemeType;
+import io.swagger.v3.oas.annotations.media.Schema;
+import io.swagger.v3.oas.annotations.security.SecurityScheme;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -15,6 +18,13 @@ import lombok.ToString;
 
 @Entity
 @Table(name = "patient_table")
+@Schema(name="Patient Model", description = "This Is The Patient Model Here")
+@SecurityScheme(
+		    name = "Bearer Authentication",
+		    type = SecuritySchemeType.HTTP,
+		    bearerFormat = "JWT",
+		    scheme = "bearer"
+		)
 @Setter
 @Getter
 @ToString

@@ -1,0 +1,162 @@
+Request Data
+--------------
+{
+        "userName": "Anil",
+        "password": "Anil",
+        "email": "aprajapati8081@gmail.com",
+        "date": "2024-02-07T08:55:25.832+00:00",
+        "address": "Uttar Pradesh",
+        "dob": "1990-07-03",
+        "phoneNumber": "9140465463",
+        "role": [
+            {
+                "roleName": "Admin",
+                "description": "This Is The Admin Role"
+            }
+        ]
+    }
+
+
+{
+        "userName": "Rahul",
+        "password": "Rahul",
+        "email": "rahul@gmail.com",
+        "date": "2024-02-07T08:55:25.832+00:00",
+        "address": "Uttar Pradesh",
+        "dob": "1990-07-03",
+        "phoneNumber": "9140465463",
+        "role": [
+            {
+                "roleName": "User",
+                "description": "This Is The User Role"
+            }
+        ]
+    }
+
+
+ {
+        "userName": "Kapil",
+        "password": "Kapil",
+        "email": "kapil@gmail.com",
+        "date": "2024-02-07T08:55:25.832+00:00",
+        "address": "Uttar Pradesh",
+        "dob": "1990-07-03",
+        "phoneNumber": "9140465463",
+        "role": [
+            {
+                "roleName": "User",
+                "description": "This Is The User Role"
+            }
+        ]
+    }
+
+
+{
+        "userName": "Komal",
+        "password": "Komal",
+        "email": "komal@gmail.com",
+        "date": "2024-02-07T08:55:25.832+00:00",
+        "address": "Uttar Pradesh",
+        "dob": "1990-07-03",
+        "phoneNumber": "9140465463",
+        "role": [
+            {
+                "roleName": "User",
+                "description": "This Is The User Role"
+            }
+        ]
+    }
+Response Data
+----------------
+
+{
+    "userName": "Anil",
+    "password": "$2a$10$/HR5GsE6iwnPaL4tcDnjC.ojhjADWunr.kanudoWEmsoq1zybDLPm",
+    "email": "aprajapati8081@gmail.com",
+    "date": "2024-05-28T10:26:23.240+00:00",
+    "address": "Uttar Pradesh",
+    "dob": "1990-07-03",
+    "phoneNumber": "9140465463",
+    "role": [
+        {
+            "roleName": "User",
+            "description": "This Is The User Role"
+        }
+    ]
+}
+
+
+{
+    "userName": "Rahul",
+    "password": "$2a$10$5vBFW5RaNT2RMO6zpKw.5e6Ry9hQBkV06OPnCBHRxDqQ2FhdXa4tq",
+    "email": "rahul@gmail.com",
+    "date": "2024-05-28T10:27:53.528+00:00",
+    "address": "Uttar Pradesh",
+    "dob": "1990-07-03",
+    "phoneNumber": "9140465463",
+    "role": [
+        {
+            "roleName": "User",
+            "description": "This Is The User Role"
+        }
+    ]
+}
+
+
+{
+    "userName": "Kapil",
+    "password": "$2a$10$OYHGg1ZGl.qPCoMZD2s/xehr5im5Nj9syp/k0rwMkjK63/wjQthVG",
+    "email": "kapil@gmail.com",
+    "date": "2024-05-28T10:29:05.455+00:00",
+    "address": "Uttar Pradesh",
+    "dob": "1990-07-03",
+    "phoneNumber": "9140465463",
+    "role": [
+        {
+            "roleName": "User",
+            "description": "This Is The User Role"
+        }
+    ]
+}
+
+
+{
+    "userName": "Komal",
+    "password": "$2a$10$i3BVTLWOhQx28kWu8J.f6O19SAkUc5qW8YHR7e92vkARAi3bJ5Hei",
+    "email": "komal@gmail.com",
+    "date": "2024-05-28T10:30:16.300+00:00",
+    "address": "Uttar Pradesh",
+    "dob": "1990-07-03",
+    "phoneNumber": "9140465463",
+    "role": [
+        {
+            "roleName": "User",
+            "description": "This Is The User Role"
+        }
+    ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,92 @@
+[
+  {
+    "userName": "Rohan",
+    "password": "$2a$10$4haROGRlhmR0Ava2llyHWeHZrj6ofI./wLMQ3zaVoHvPxsYuGmok6",
+    "email": "aprajapati8081@gmail.com",
+    "address": "Mumbai",
+    "date": "2024-06-28T10:25:29.548+00:00",
+    "dob": "2024-05-26",
+    "contactNumber": 9919105268,
+    "roles": [
+      {
+        "roleName": "User",
+        "description": "This Is The User Role"
+      }
+    ]
+  },
+  {
+    "userName": "Ashish",
+    "password": "$2a$10$.fqk8DQFTV8BzBQZRD1prusCNQ0QkOP6yWd7VaDXp6yUiellReXQS",
+    "email": "aprajapati8081@gmail.com",
+    "address": "Mumbai",
+    "date": "2024-06-25T09:15:52.862+00:00",
+    "dob": "2024-05-26",
+    "contactNumber": 9919105268,
+    "roles": [
+      {
+        "roleName": "User",
+        "description": "This Is The User Role"
+      }
+    ]
+  },
+  {
+    "userName": "Roshan",
+    "password": "$2a$10$6/ZI2mS3T3dA83ignDAlrOlHkUSAqwRlsC68SIPp6PKFTpMwivsf.",
+    "email": "roshan@gmil.com",
+    "address": "Mumbai",
+    "date": "2024-06-28T10:34:17.188+00:00",
+    "dob": "2024-05-28",
+    "contactNumber": 9919105268,
+    "roles": [
+      {
+        "roleName": "User",
+        "description": "This Is The User Role"
+      }
+    ]
+  },
+  {
+    "userName": "Reenu",
+    "password": "$2a$10$oWJVk8v.8hCLwlizNQ34/uV7a9wu/C/ozPkdWSlCQ8/gnzBRP4C5u",
+    "email": "aprajapati8081@gmail.com",
+    "address": "Ambala",
+    "date": "2024-06-19T08:20:36.930+00:00",
+    "dob": "07-07-2000",
+    "contactNumber": 991915268,
+    "roles": [
+      {
+        "roleName": "Doctor",
+        "description": "This is the Doctor role"
+      }
+    ]
+  },
+  {
+    "userName": "Anil",
+    "password": "$2a$10$1p4tEvYRfzmkp6uDZBKz5Ox9L2nDGqqIAknlFPBs4RUaahgUsWrwG",
+    "email": "aprajapati8081@gmail.com",
+    "address": "Uttar Pradesh",
+    "date": "2024-06-19T08:21:53.673+00:00",
+    "dob": "07-07-2000",
+    "contactNumber": 8081489506,
+    "roles": [
+      {
+        "roleName": "Admin",
+        "description": "This is the Admin role"
+      }
+    ]
+  },
+  {
+    "userName": "Rahul",
+    "password": "$2a$10$qlwiCH9JniLfETGx1nBSrOi4iyuM4YAHmaplucoviYsJBv/Y.LqdW",
+    "email": "aprajapati8081@gmail.com",
+    "address": "Uttar Pradesh",
+    "date": "2024-06-19T08:23:00.084+00:00",
+    "dob": "07-07-2000",
+    "contactNumber": 9140465463,
+    "roles": [
+      {
+        "roleName": "User",
+        "description": "This Is The User Role"
+      }
+    ]
+  }
+]

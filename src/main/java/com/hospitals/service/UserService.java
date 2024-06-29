@@ -48,7 +48,7 @@ public class UserService {
 	    roles.add(role);
 	    user.setRoles(roles);
 
-	    // Create email content
+        // Create email content
 	    String emailText = "<html>" +
 	        "<head>" +
 	        "<style>" +

@@ -9,7 +9,13 @@ import com.hospitals.model.JwtRequest;
 import com.hospitals.model.JwtResponse;
 import com.hospitals.service.JwtService;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
+import io.swagger.v3.oas.annotations.tags.Tag;
+
 @RestController
+@Tag(name="Authentication Model",description = "Here Login Every One What Are the Person We Do The Registration")
 public class JwtController {
 
 	@Autowired
@@ -17,6 +23,12 @@ public class JwtController {
 	
 		
 	@PostMapping("/authentication")
+	@Operation(summary = "Login Every One", description = "This Is The Login Model Here")
+	@ApiResponses(value = {
+			@ApiResponse(responseCode = "200",description = "Login Successfully"),
+			@ApiResponse(responseCode = "401",description = "Something Wan't Wrong Plsease Trying Again"),
+			@ApiResponse(responseCode = "402", description = "Data not Found")
+	})
 	public JwtResponse createJwtToken(@RequestBody JwtRequest jwtRequest) {	
 		return jwtService.createJwtToken(jwtRequest);
 	}
